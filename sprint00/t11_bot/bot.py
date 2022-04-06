@@ -14,5 +14,4 @@ else:
 		if not (num1.isnumeric() and num2.isnumeric()):
 			print("usage: first and second beatbox numbers must be integer or float, but string")
 		else:
-			print(f"{s1 * int(num1)}")
-			print(f"{s2 * int(num2)}")
+			print(f"{s1 * int(num1)}{s2 * int(num2)}")
